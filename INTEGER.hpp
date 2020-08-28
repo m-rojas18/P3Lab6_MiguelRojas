@@ -1,5 +1,6 @@
+#ifndef INTEGER_H
+#define INTEGER_H
 
-#pragma once
 class INTEGER{
 private: //Atributo
     int entero;
@@ -17,3 +18,5 @@ public:
     INTEGER operator/(INTEGER); //Division
     ~INTEGER();
 };
+
+#endif

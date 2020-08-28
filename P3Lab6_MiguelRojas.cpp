@@ -48,7 +48,7 @@ int main(int argc, char const *argv[]){
     !((w-x)/z);
     !fin_linea;
     
-    /*titulos<<"Acumulando letras: ";
+    titulos<<"Acumulando letras: ";
     !titulos;
     letra1<<'n';
     letra2<<'w';
@@ -65,7 +65,7 @@ int main(int argc, char const *argv[]){
     titulos<<"Imprimir letra: ";
     !titulos;
     letra1<<letra2;
-    !letra2;*/
+    !letra2;
 
     return 0;
 }

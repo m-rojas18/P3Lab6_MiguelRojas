@@ -1,6 +1,9 @@
-#pragma once
 #include <string>
-#include "CHAR.hpp"
+// #include "CHAR.hpp"
+
+#ifndef STRING_H
+#define STRING_H
+
 class STRING{
 
 private://Atributo
@@ -8,6 +11,8 @@ private://Atributo
 public:
     //Meteodos de Sobrecarga
     void operator<<(std::string);
+    void operator<<(STRING);
     void operator!();
-    STRING operator+(std::string);
+    STRING operator*(int);
 };
+#endif

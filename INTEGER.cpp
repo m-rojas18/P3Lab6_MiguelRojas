@@ -1,5 +1,7 @@
-#include "INTEGER.hpp"
 #include <iostream>
+
+#include "INTEGER.hpp"
+
 void INTEGER::operator<<(int valor){
     entero = valor;
 }

@@ -1,5 +1,8 @@
-#pragma once
-//#include "STRING.hpp"
+#include "STRING.hpp"
+
+#ifndef CHAR_H
+#define CHAR_H
+
 class CHAR{
 
 private: //Atributo
@@ -7,9 +10,11 @@ private: //Atributo
 
 public:
     //Metodos de Sobrecarga de Operadores
+    STRING operator+(CHAR);
     void operator<<(char);
+    void operator<<(CHAR);
     void operator!();
-   // STRING operator+(CHAR);
     ~CHAR();//Destructor
 };
 
+#endif
