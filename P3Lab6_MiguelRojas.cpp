@@ -19,18 +19,6 @@ Imprimir letra:
 w
 */
 int main(int argc, char const *argv[]){
-
-INTEGER n;
-n<<5;
-!n;
-n << 6 + 7;
-!n;
-n << 6 - 7;
-!n;
-n << 6 * 7;
-!n;
-n << 6 / 7;
-!n;
     /*STRING titulos;    
     STRING palabra;    
     STRING fin_linea;
