@@ -18,20 +18,20 @@ INTEGER INTEGER::operator+(INTEGER valor_suma){
     return temporal;
 }
 INTEGER INTEGER::operator-(INTEGER valor_resta){
-    int temporal;
-    temporal = entero - valor_resta.entero;
+    INTEGER temporal;
+    temporal << entero - valor_resta.entero;
     return temporal;
 }
 
 INTEGER INTEGER::operator*(INTEGER valor_multiplicacion){
-    int temporal;
-    temporal = entero * valor_multiplicacion.entero;
+    INTEGER temporal;
+    temporal << entero * valor_multiplicacion.entero;
     return temporal;
 }
 
 INTEGER INTEGER::operator/(INTEGER valor_division){
-    int temporal;
-    temporal = entero / valor_division.entero;
+    INTEGER temporal;
+    temporal << entero / valor_division.entero;
     return temporal;
 }
 

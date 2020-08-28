@@ -12,8 +12,8 @@ public:
     //Metodos Matematicos
 
     INTEGER operator+(INTEGER); //Suma
-    int operator-(int); //Resta
-    int operator*(int); //Multiplicacion
-    int operator/(int); //Division
+    INTEGER operator-(INTEGER); //Resta
+    INTEGER operator*(INTEGER); //Multiplicacion
+    INTEGER operator/(INTEGER); //Division
     ~INTEGER();
 };
