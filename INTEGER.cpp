@@ -3,31 +3,35 @@
 void INTEGER::operator<<(int valor){
     entero = valor;
 }
+void INTEGER::operator<<(INTEGER temporal){
+    entero = temporal.entero;
+}
 
 void INTEGER::operator!(){
     std::cout << entero << std::endl;
 }
 
-INTEGER INTEGER::operator+(int valor_suma){
+
+INTEGER INTEGER::operator+(INTEGER valor_suma){
     INTEGER temporal;
-    temporal << entero + valor_suma;
+    temporal << entero + valor_suma.entero;
     return temporal;
 }
-INTEGER INTEGER::operator-(int valor_resta){
-    INTEGER temporal;
-    temporal << entero - valor_resta;
+INTEGER INTEGER::operator-(INTEGER valor_resta){
+    int temporal;
+    temporal = entero - valor_resta.entero;
     return temporal;
 }
 
-INTEGER INTEGER::operator*(int valor_multiplicacion){
-    INTEGER temporal;
-    temporal << entero * valor_multiplicacion;
+INTEGER INTEGER::operator*(INTEGER valor_multiplicacion){
+    int temporal;
+    temporal = entero * valor_multiplicacion.entero;
     return temporal;
 }
 
-INTEGER INTEGER::operator/(int valor_division){
-    INTEGER temporal;
-    temporal << entero / valor_division;
+INTEGER INTEGER::operator/(INTEGER valor_division){
+    int temporal;
+    temporal = entero / valor_division.entero;
     return temporal;
 }
 

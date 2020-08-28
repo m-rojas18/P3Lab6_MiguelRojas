@@ -1,6 +1,5 @@
-#include <string>
-using namespace std;
 #pragma once
+//#include "STRING.hpp"
 class CHAR{
 
 private: //Atributo
@@ -10,7 +9,7 @@ public:
     //Metodos de Sobrecarga de Operadores
     void operator<<(char);
     void operator!();
-    string operator+(char);
+   // STRING operator+(CHAR);
     ~CHAR();//Destructor
 };
 

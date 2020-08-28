@@ -7,12 +7,13 @@ private: //Atributo
 public:
     //Metodos de Sobrecarga de Operadores
     void operator<<(int);
+    void operator<<(INTEGER);
     void operator!();
     //Metodos Matematicos
 
-    INTEGER operator+(int); //Suma
-    INTEGER operator-(int); //Resta
-    INTEGER operator*(int); //Multiplicacion
-    INTEGER operator/(int); //Division
+    INTEGER operator+(INTEGER); //Suma
+    int operator-(int); //Resta
+    int operator*(int); //Multiplicacion
+    int operator/(int); //Division
     ~INTEGER();
 };

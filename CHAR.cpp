@@ -1,20 +1,24 @@
 #include "CHAR.hpp"
-#include <string>
+#include "STRING.hpp"
+#include <cstring>
 #include <iostream>
-using namespace std;
 
 void CHAR::operator<<(char caracter){
     this->caracter = caracter;
 }
 
 void CHAR::operator!(){
-    cout << this->caracter << endl;
+    std::cout << this->caracter << std::endl;
 }
 
-string CHAR::operator+(char caracter_acumular){
-    string cadena_temporal = caracter;
-    cadena_temporal += caracter_acumular;
-    return cadena_temporal;
-}
+/*STRING CHAR::operator+(CHAR segundo_caracter){
+    char caracter2 = static_cast<char>(segundo_caracter);
+    std::string cadena_temporal = caracter;
+    cadena_temporal += caracter2;
+    STRING nueva_cadena;
+    nueva_cadena << cadena_temporal;
+    return nueva_cadena;
+}*/
+
 
 CHAR::~CHAR(){}

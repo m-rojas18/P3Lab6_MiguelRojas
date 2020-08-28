@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 #include "INTEGER.hpp"
+#include "CHAR.hpp"
+#include "STRING.hpp"
 /*
 *************SALIDA ESPERADA*************
 x+y:
@@ -19,7 +21,7 @@ Imprimir letra:
 w
 */
 int main(int argc, char const *argv[]){
-    /*STRING titulos;    
+    STRING titulos;    
     STRING palabra;    
     STRING fin_linea;
     CHAR letra1;
@@ -46,7 +48,7 @@ int main(int argc, char const *argv[]){
     !((w-x)/z);
     !fin_linea;
     
-    titulos<<"Acumulando letras: ";
+    /*titulos<<"Acumulando letras: ";
     !titulos;
     letra1<<'n';
     letra2<<'w';
